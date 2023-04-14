@@ -33,6 +33,7 @@ import PreguntasCard from "../../components/preguntasCard/preguntasCard"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TestimonioCard from '../../components/testimonioCard/testimonioCard'
+import Button from "../../components/inscribirmeButton/inscribirmeButton"
 
 const Desktop = () => {
   return (
@@ -41,6 +42,7 @@ const Desktop = () => {
             <h2 className='bannerTitle'>Diplomado<br/> <span>MANEJO ÓPTIMO DE</span><br/> DIABETES<br/><span>EN LA ERA DE LA INSULINA</span></h2>
             <div className='bannerBottomDiv'>
                 <p className='bannerBottomP'>Domina el manejo de diabetes con insulina, dispositivos de alta tecnología y tratamientos de última generación en menos de un año con nuestro diplomado.</p>
+                <Button text={"inscribirme"}/>
             </div>
         </div>
         <div className='section2De'>
@@ -48,6 +50,9 @@ const Desktop = () => {
                 <h2 className='purpleTitle'>¿En qué consiste<br/><span>el diplomado?</span></h2>
                 <p className='regularP'>Este es un programa de 8 módulos, cada uno con duración de 4 semanas con 1 semana extra de descanso entre módulos.</p>
                 <p className='smallP'>Al finalizar este programa dominarás el manejo de diabetes con insulina, así como los dispositivos de alta tecnología y tratamientos de última generación.</p>
+                <div className='secondButtonDiv'>
+                    <Button text={"inscribirme"}/>
+                </div>
             </div>
             <div className='horCardGroup'>
                 <HorCard imageSrc={Revisaras} paragraphText={"Revisarás los contenidos semanalmente en tus horarios disponibles"}/>
@@ -195,6 +200,9 @@ const Desktop = () => {
             </div>
             <p className='mil'>$1,870 USD aprox.</p>
             <p className='felicidades'>*Facilidades de pago y meses sin intereses.</p>
+            <div className='thirdButtonDiv'>
+                <Button text={"Inscríbete ahora"}/>
+            </div>
         </div>
         <div className='section9De'>
             <h2 className='testimoniosTtitle'>Testimonios</h2>

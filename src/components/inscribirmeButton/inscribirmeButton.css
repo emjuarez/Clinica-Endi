@@ -23,8 +23,19 @@
     font-weight: 600;
     font-size: 17px;
     line-height: 35px;
-    /* identical to box height */
-
     text-align: center;
     text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    .buttonText {
+        font-size: 12px;
+        line-height: 21px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .buttonText {
+        font-size: 16px;
+        line-height: 21px;
+    }
 }

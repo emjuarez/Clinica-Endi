@@ -148,6 +148,22 @@
     align-items: center;
     width: 100%;
 }
+.secondButtonDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 11%;
+}
+.thirdButtonDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 46%;
+    margin-top: 3%;
+}
 @media (min-width: 768px) { 
     .bannerTitle {
         margin-left: 0%;
