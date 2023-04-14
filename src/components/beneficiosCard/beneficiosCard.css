@@ -1,0 +1,132 @@
+.beneficioCardMainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 550px;
+    border: solid white 6px;
+    position: relative;
+    width: 70%;
+    height: 65vw;
+    margin-top: 15%;
+}
+.beneficioTitle {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 2%;
+}
+.beneficioInfo {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 0%;
+}
+.beneficoPink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 550px;
+    position: absolute;
+    z-index: 8;
+    background-color: #C384CE;
+    width: 43%;
+    height: 29vw;
+    right: -3%;
+    bottom: -23%;
+}
+.beneficioPinkP {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+@media (min-width: 768px) {
+
+    .beneficioCardMainDiv {
+    
+        border-radius: 550px;
+        border: solid white 4px;
+        position: relative;
+        width: 44%;
+        height: 20vw;
+        margin-top: 0%;
+    }
+    .beneficioTitle {
+        font-size: 13px;
+        line-height: 44px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 2%;
+    }
+    .beneficioInfo {
+        font-size: 11px;
+        line-height: 16px;
+        margin-top: 0%;
+        margin-bottom: 33%;
+        text-align: left;
+    }
+    .beneficoPink {
+        width: 46%;
+        height: 9vw;
+        right: -3%;
+        bottom: -23%;
+    }
+    .beneficioPinkP {
+
+        font-size: 9px;
+        line-height: 12px;
+        margin-bottom: 0%;
+    }
+}
+@media (min-width: 1000px) {
+    .beneficioCardMainDiv {
+        padding: 2%;
+    }
+    .beneficioTitle {
+        font-size: 17px;
+        line-height: 44px;
+        margin-bottom: 2%;
+    }
+    .beneficioInfo {
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 0%;
+        margin-bottom: 22%;
+    }
+    .beneficoPink {
+        padding: 2%;
+    }
+    .beneficioPinkP {
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+@media (min-width: 1500px) {
+    .beneficioTitle {
+        font-size: 32px;
+        line-height: 44px;
+        margin-bottom: 2%;
+    }
+    .beneficioInfo {
+        font-size: 19px;
+        line-height: 26px;
+        margin-top: 0%;
+        margin-bottom: 22%;
+    }
+    .beneficioPinkP {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

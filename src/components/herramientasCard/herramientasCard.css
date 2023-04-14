@@ -1,0 +1,77 @@
+.herramientasCardMainDiv {
+    width: 80%;
+    border: solid #3C78BC 3px;
+    border-radius: 25px;
+    margin-bottom: 15%;
+    height: 43vw;
+    padding: 7% 3% 3% ;
+    position: relative;
+}
+.herramientasImage {
+    position: absolute;
+    width: 65.08px;
+    height: 65.08px;
+    left: 54.46px;
+    top: 5976.46px;
+    top: -26%;
+    left: 6%;
+}
+.herramientasP {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C78BC;
+}
+@media (min-width: 768px) {
+    .herramientasCardMainDiv {
+        width: 32%;
+        border: solid #3C78BC 2px;
+        margin-bottom: 0%;
+        height: 16vw;
+        padding: 5% 2% 2% ;
+        position: relative;
+    }
+    .herramientasImage {
+        width: 45.08px;
+        height: 45.08px;
+        left: 54.46px;
+        top: -20%;
+        left: 6%;
+    }
+    .herramientasP {
+        font-size: 10px;
+        line-height: 17px;
+    }
+}
+@media (min-width: 1000px) {
+
+    .herramientasCardMainDiv {
+        height: 14vw;
+        padding: 5% 2% 2% ;
+        position: relative;
+    }
+    .herramientasImage {
+        width: 55.08px;
+        height: 55.08px;
+        left: 54.46px;
+        top: -20%;
+        left: 6%;
+    }
+    .herramientasP {
+        font-size: 13px;
+        line-height: 17px;
+    }
+}
+@media (min-width: 1500px) {
+    .herramientasImage {
+        width: 80.08px;
+        height: 80.08px;
+    }
+    .herramientasP {
+        font-size: 21px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,30 @@
+.buttonA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 60%;
+}
+.butonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #802A8C;
+    border-radius: 40px;
+    padding: 4% 9%;
+
+}
+.buttonText {
+    color: white;
+    margin-bottom: 0%;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 35px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+}

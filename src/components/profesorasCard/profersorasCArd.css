@@ -1,0 +1,130 @@
+.profesorasCmainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid #802A8C 3px;
+    border-radius: 10px;
+    width: 93%;
+    height: 114vw;
+    position: relative;
+    margin-bottom: 30%;
+    padding: 20% 0% 5%;
+}
+.profImage {
+    width: 144px;
+    height: 144px;
+    position: absolute;
+    z-index: 9;
+    top: -19%
+}
+.profName {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.profTitle {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.profList {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+@media (min-width: 768px){
+    .profesorasCmainDiv {
+        border: solid #802A8C 3px;
+        border-radius: 10px;
+        width: 32%;
+        height: 37vw;
+        margin-bottom: 0%;
+        padding: 8% 0% 5%;
+    }
+    .profImage {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        z-index: 9;
+        top: -19%
+    }
+    .profName {
+        font-size: 13px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 0%;
+    }
+    .profTitle {
+        font-size: 11px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .profList {
+        font-size: 9px;
+        line-height: 14px;
+    }
+    .profList li {
+        margin-bottom: 3%;
+    }
+}
+@media (min-width: 1000px) {
+    .profesorasCmainDiv {
+        height: 28vw;
+        margin-bottom: 0%;
+        padding: 8% 1% 5%;
+    }
+    .profName {
+        font-size: 15px;
+    }
+    .profTitle {
+        font-size: 13px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    .profList {
+        font-size: 9px;
+        line-height: 14px;
+    }
+}
+@media (min-width: 1500px) {
+    .profesorasCmainDiv {
+        height: 24vw;
+        margin-bottom: 0%;
+        padding: 6% 1% 2%;
+    }
+    .profImage {
+        width: 146px;
+        height: 146px;
+        top: -21%;
+    }
+    .profName {
+        font-size: 17px;
+    }
+    .profTitle {
+        font-size: 17px;
+        line-height: 28px;
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
+    .profList {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}

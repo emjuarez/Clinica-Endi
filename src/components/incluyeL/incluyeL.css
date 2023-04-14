@@ -1,0 +1,93 @@
+.incluyeLmainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 1% 3% 1% 3%;
+    border-radius: 50px 0px 00px 50px;
+    background-color: white;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.incluyeP {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    max-width: 80%;
+    text-align: left;
+    line-height: 16px;
+    margin-bottom: 0%;
+    color: #3C78BC;
+}
+.circularDiv {
+    background-color: #3C78BC;
+    border-radius: 50px;
+    width: 12%;
+    height: 11vw;
+}
+@media (min-width: 768px) {
+    .incluyeLmainDiv {
+        width: 100%;
+        padding: 1% 6% 1% 3%;
+        border-radius: 50px 0px 00px 50px;
+        background-color: white;
+        margin-bottom: 5%;
+    }
+    .incluyeP {
+        font-size: 10px;
+        line-height: 16px;
+        margin-bottom: 0%;
+    }
+    .circularDiv {
+        border-radius: 50px;
+        width: 11% !important;
+        height: 4vw !important;
+    }
+}
+@media (min-width: 1000px) {
+    .incluyeLmainDiv {
+        width: 100%;
+        padding: 1% 9% 1% 3%;
+        border-radius: 50px 0px 0px 50px;
+        background-color: white;
+        margin-bottom: 5%;
+    }
+    .incluyeP {
+        font-size: 13px;
+        line-height: 16px;
+        margin-bottom: 0%;
+    }
+    .circularDiv {
+        border-radius: 50px;
+        width: 11% !important;
+        height: 4vw !important;
+    }
+}
+@media (min-width: 1500px) {
+    .incluyeLmainDiv {
+        width: 100%;
+        padding: 1% 10% 1% 3%;
+        border-radius: 50px 0px 0px 50px;
+        background-color: white;
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 1500px) {
+    .circularDiv { 
+        border-radius: 50px;
+        width: 10% !important;
+        height: 4vw !important;
+    }
+    .incluyeP {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 0%;
+    }
+    .circularDiv { 
+        border-radius: 50px; 
+        width: 11% !important;
+        height: 4vw !important;
+    }
+}

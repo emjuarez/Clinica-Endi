@@ -1,0 +1,112 @@
+.testimonioContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    position: relative;
+}
+.testimonioCardMain {
+    display: flex;
+    flex-direction: column;
+    border: solid white 2px;
+    border-radius: 12px;
+    padding: 13% 2% 3% 5%;
+    width: 90%;
+}
+.personaDiv {
+    position: absolute;
+    z-index: 9;
+    top: 5%;
+    left: 15%;
+    width: 70%;
+    background-color: #1694B5;
+}
+.peropnaP{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.testimonio {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: left;
+}
+@media (min-width: 768px) {
+
+    .testimonioContainer {
+        padding-top: 4%;
+        margin-top: 3%;
+    }
+    .testimonioCardMain {
+        display: flex;
+        flex-direction: column;
+        border: solid white 2px;
+        border-radius: 12px;
+        padding: 5% 2% 3% 5%;
+        width: 90%;
+    }
+    .personaDiv {
+        position: absolute;
+        z-index: 9;
+        top: 5%;
+        left: 6%;
+        width: 40%;
+        padding: 0% 2%;
+        background-color: #1694B5;
+    }
+}
+@media (min-width: 1000px) {
+    .testimonioCardMain {
+        display: flex;
+        flex-direction: column;
+        border: solid white 2px;
+        border-radius: 12px;
+        padding: 3% 3% 2% 3%;
+        width: 90%;
+    }
+    .personaDiv {
+        width: 62%;
+    }
+    .peropnaP{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .testimonio {
+        font-size: 19px;
+        line-height: 24px;
+    }
+}
+@media (min-width: 1500px) {
+    .testimonioCardMain {
+ 
+        padding: 3% 3% 2% 3%;
+        width: 90%;
+    }
+    .personaDiv {
+        width: 62%;
+        top: 13%;
+    }
+    .peropnaP{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .testimonio {
+        font-size: 21px;
+        line-height: 36px;
+    }
+}

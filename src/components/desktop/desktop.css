@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;800&family=Lato:ital,wght@0,400;1,300&display=swap');
+
+.section1De {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/desktop/Group\ 46.png");
+    background-size: cover;
+    width: 100%;
+    height: 39vw;
+    position: relative;
+}
+.section2De {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 7% 0% 5% 5%;
+    /* padding-bottom: 30%; */
+}
+.section2DeLeft {
+    width: 40%;
+}
+.section3De {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF1EC;
+    padding: 5%;
+}
+.section4De {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 5% 5% 15%;
+    position: relative;
+}
+.ContenidoCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+.moduloCardRow { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section5De {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 3% 0% 3%;
+
+}
+.profCardRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15%;
+    width: 85%;
+}
+.section6De {
+    display: flex;
+    flex-direction: column;
+ 
+    background: #EFF1EC;
+    padding:  10% 5%;
+}
+.section7De {
+    padding: 5% 0% 7% ;
+    background-color: #3C78BC
+}
+.incluyeCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.incluyeLeftGroup {
+    width: 45%;
+}
+.incluyeRightGroup {
+    width: 45%;
+
+}
+.section7DbottomDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:  0% 5%;
+}
+.beneficiosDuo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.section8De {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 7%;
+    background: #EFF1EC;
+}
+.gridContainer {
+    margin-top: 5%;
+}
+.section9De {
+    display: flex;
+    flex-direction: column;
+    padding: 13% 4%;
+    background-color: #1694B5;
+}
+.section10De {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 4% 7%;
+}
+.preguntasCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+@media (min-width: 768px) { 
+    .bannerTitle {
+        margin-left: 0%;
+        margin-bottom: 0%;
+        position: absolute;
+        left: 23%
+    }
+    .bannerBottomDiv {
+        margin-left: 0%;
+        width: 30%;
+        position: absolute;
+        z-index: 98;
+        right: 5%;
+        bottom: 10%;
+    }
+    .purpleTitle {
+        font-size: 27px;
+        line-height: 32px;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    .regularP {
+        font-size: 15px;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .smallP { 
+        font-size: 13px;
+        width: 100%;
+    }
+    .horCardGroup {
+        margin-top: 0%;
+        width: 60%
+    }
+    .section3Title {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .section3Subt {
+        font-size: 17px;
+        line-height: 32px;
+        width: 60%;
+        margin-bottom: 4%;
+    }
+    .firstLi li {
+        font-size: 14px;
+        text-align: left;
+        line-height: 24px;
+        margin-bottom: 2%;
+    }
+    .section4Title {
+        text-align: left;
+    }
+    .avaladoDiv {
+        width: 40%;
+        bottom: 12%;
+        border-radius: 50px 0px 0px 50px;
+        padding: 1% 0% 1% 3%;
+    }
+    .avalado {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: left;
+        margin-right: 7%;
+        margin-bottom: 0%;
+    }
+    .avaladoImage {
+        width: 35px;
+        height: auto;
+        margin-right: 4%;
+    } 
+    .section5Title {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 37px;
+        width: 80%;
+        margin-right: 15%;
+    }
+    .queHerramientas {
+        width: 50%;
+        font-size: 26px;
+        margin-bottom: 10%;
+    }
+    .queIncluye {
+        width: 23%;
+        font-size: 26px;
+        line-height: 34px;
+        margin-left: 7%;
+    }
+    .sieres {
+        font-size: 17px;
+        line-height: 22px;
+        width: 34%;
+        margin-left: 0%;
+    }
+    .cuales {
+        font-size: 28px;
+    }
+    .gridP {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 0%;
+    }
+    .topLeft {
+        width: 60%;
+        height: 9vw;
+        border-radius: 12px 0px 0px 0px;
+        padding:  1% 2%;
+    }
+    .topRight {
+        width: 40%;
+        height: 9vw;
+        border-radius: 0px 12px 0px 0px;
+        padding:  1% 2%;
+    }
+    .middleLeft {
+        width: 60%;
+        height: 9vw;
+        padding:  1% 2%;
+    }
+    .middleRight {
+        width: 40%;
+        height: 9vw;
+        padding:  1% 2%;
+    }
+    .bottomLeft {
+        width: 60%;
+        height: 9vw;
+        border-radius: 0px 0px 0px 12px;
+        padding:  1% 2%;
+    }
+    .bottomRight {
+        width: 40%;
+        height: 9vw;
+        border-radius: 0px 0px 12px 0px;
+        padding:  1% 2%;
+    }
+    .valortotal {
+        font-size: 21px;
+        margin-top: 16%;
+        margin-bottom: 4%;
+    }
+    .porUnica {
+        font-size: 17px;
+        line-height: 28px;
+        margin-bottom: 3%;
+    }
+    .ochenta {
+        margin-bottom: 3%;
+    }
+    .treintaycuatroDiv {
+        width: 40%;
+        padding: 1%;
+    }
+    .treintaycuatro {
+        font-size: 27px;
+        line-height: 36px;
+        margin-bottom: 0%;
+    }
+    .testimoniosTtitle {
+        font-size: 28px;
+        text-align: left;
+    }
+    .preguntasTitle {
+        font-size: 28px;
+        margin-bottom: 4%;
+    }
+}
+@media (min-width: 1000px) {
+    .bannerTitle {
+        font-size: 50px;
+    }
+    .bannerTitle span {
+        font-size: 26px;
+    }
+    .bannerBottomDiv {
+        margin-left: 0%;
+        width: 31%;
+        position: absolute;
+        z-index: 98;
+        right: 2%;
+        bottom: 26%;
+    }
+    .bannerBottomP {
+        font-size: 17px;
+    }
+    .purpleTitle {
+        font-size: 33px;
+        line-height: 37px;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    .regularP {
+        font-size: 17px;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .smallP { 
+        font-size: 15px;
+        width: 100%;
+    }
+    .section3De {
+        padding: 5% 5% 3% 5%;
+    }
+    .section3Title {
+        font-size: 33px;
+        line-height: 44px;
+    }
+    .section3Subt {
+        font-size: 19px;
+        line-height: 32px;
+        width: 55%;
+        margin-bottom: 4%;
+    }
+    .firstLi {
+        width: 86%;
+    }
+    .firstLi li {
+        font-size: 16px;
+        text-align: left;
+        line-height: 24px;
+        margin-bottom: 2%;
+    }
+    .section4De {
+        padding: 5% 5% 10%;
+    }
+    .section4Title {
+        font-size: 36px;
+    }
+    .avaladoDiv {
+        bottom: 5%;
+    }
+    .avalado {
+        font-size: 22px;
+    }
+    .avaladoImage {
+        width: 40px;
+    } 
+    .section5Title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .queHerramientas {
+        width: 49%;
+        font-size: 32px;
+        margin-bottom: 10%;
+    }
+    .queIncluye {
+        width: 23%;
+        font-size: 32px;
+        line-height: 40px;
+        margin-left: 7%;
+    }
+    .sieres {
+        font-size: 25px;
+        line-height: 33px;
+        width: 40%;
+        margin-left: 0%;
+    }
+    .cuales {
+        font-size: 32px;
+    }
+    .gridP {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .topLeft {
+        height: 8vw;
+        padding:  1% 2%;
+    }
+    .topRight {
+        height: 8vw;
+        padding:  1% 2%;
+    }
+    .middleLeft {
+        height: 8vw;
+        padding:  1% 2%;
+    }
+    .middleRight {
+        height: 8vw;
+        padding:  1% 2%;
+    }
+    .bottomLeft {
+        height: 8vw;
+        padding:  1% 2%;
+    }
+    .bottomRight {
+        height: 8vw;
+        padding:  1% 2%;
+    }
+    .valortotal {
+        font-size: 24px;
+        margin-top: 18%;
+        margin-bottom: 6%;
+    }
+    .porUnica {
+        font-size: 21px;
+        line-height: 28px;
+        margin-bottom: 3%;
+    }
+    .ochenta {
+        margin-bottom: 2%;
+        font-size: 56px;
+    }
+    .treintaycuatroDiv {
+        margin-bottom: 2%;
+    }
+    .treintaycuatro {
+        font-size: 35px;
+        line-height: 36px;
+        margin-bottom: 0%;
+    }
+    .section9De {
+        display: flex;
+        flex-direction: column;
+        padding: 9% 4%;
+        background-color: #1694B5;
+    }
+    .testimoniosTtitle {
+        font-size: 31px;
+        text-align: left;
+    }
+    .carousel {
+        width: 80%;
+    }
+    .section10De {
+        padding: 6% 4% 6%;
+    }
+    .preguntasTitle {
+        font-size: 32px;
+        margin-bottom: 4%;
+    }
+}
+@media (min-width: 1500px) {
+    .bannerTitle {
+        font-size: 75px;
+    }
+    .bannerTitle span {
+        font-size: 39px;
+    }
+    .bannerBottomP {
+        font-size: 17px;
+    }
+    .bannerBottomP {
+        font-size: 26px;
+    }
+    .purpleTitle {
+        font-size: 53px;
+        line-height: 56px;
+    }
+    .regularP {
+        font-size: 26px;
+    }
+    .smallP {
+        font-size: 20px;
+        width: 100%;
+    }
+    .section3Title {
+        font-size: 43px;
+        line-height: 52px;
+        margin-bottom: 2%;
+    }
+    .section3Subt {
+        font-size: 22px;
+        line-height: 32px;
+        width: 42%;
+        margin-bottom: 4%;
+    }
+    .firstLi {
+        width: 86%;
+    }
+    .firstLi li {
+        font-size: 21px;
+        line-height: 31px;
+        margin-bottom: 2%;
+    }
+    .section4Title {
+        font-size: 43px;
+    }
+    .avalado {
+        font-size: 25px;
+    }
+    .avaladoImage {
+        width: 50px;
+    } 
+    .section5Title {
+        font-size: 52px;
+        line-height: 57px;
+    }
+    .profCardRow {
+        margin-top: 10%;
+        width: 85%;
+        max-width: 1500px;
+    }
+    .section6De {
+        display: flex;
+        flex-direction: column;
+        background: #EFF1EC;
+        padding: 5% 5%;
+    }
+    .queHerramientas {
+        width: 44%;
+        font-size: 43px;
+        line-height: 55px;
+        margin-bottom: 10%;
+    }
+    .queIncluye {
+        width: 20%;
+        font-size: 43px;
+        line-height: 59px;
+    }
+    .sieres {
+        font-size: 28px;
+        line-height: 46px;
+        width: 27%;
+        margin-left: 0%;
+    }
+    .cuales {
+        font-size: 43px;
+    }
+    .gridP {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .topLeft {
+        height: 6vw;
+        padding:  1% 2%;
+    }
+    .topRight {
+        height: 6vw;
+        padding:  1% 2%;
+    }
+    .middleLeft {
+        height: 6vw;
+        padding:  1% 2%;
+    }
+    .middleRight {
+        height: 6vw;
+        padding:  1% 2%;
+    }
+    .bottomLeft {
+        height: 6vw;
+        padding:  1% 2%;
+    }
+    .bottomRight {
+        height: 6vw;
+        padding:  1% 2%;
+    }
+    .valortotal {
+        font-size: 27px;
+    }
+    .porUnica {
+        font-size: 22px;
+        margin-bottom: 2%;
+    }
+    .treintaycuatroDiv {
+        width: 22%;
+    }
+    .mil {
+        font-size: 27px;
+        margin-bottom: 1%;
+    }
+    .section10De {
+        padding: 6% 4% 6%;
+    }
+    .testimoniosTtitle {
+        font-size: 43px;
+    }
+}
